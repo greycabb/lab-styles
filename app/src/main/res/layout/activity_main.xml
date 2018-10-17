@@ -31,7 +31,7 @@
         />
 
     <TextView
-        style="@style/UWPurple"
+        style="@style/Gold"
         android:layout_toEndOf="@id/label1"
         android:layout_alignBaseline="@id/label1"
         android:text="@string/value1"

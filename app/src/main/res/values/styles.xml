@@ -14,6 +14,9 @@
         <item name="android:layout_height">wrap_content</item>
         <item name="android:layout_width">wrap_content</item>
     </style>
+    <style name="Gold" parent="@style/UWPurple">
+        <item name="android:textColor">#e8e3d3</item>
+    </style>
     <style name="ButtonStyle" parent="@android:style/MediaButton">
         <item name="android:textSize">22sp</item>
     </style>
