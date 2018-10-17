@@ -1,11 +1,21 @@
 <resources>
 
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:style/Theme.Material.Light">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--@color/colorPrimary-->
+        <item name="colorPrimary">#4b2e83</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorAccent">#e8e3d3</item>
+    </style>
+    <style name="UWPurple">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#4b2e83</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+    <style name="ButtonStyle" parent="@android:style/MediaButton">
+        <item name="android:textSize">22sp</item>
     </style>
 
 </resources>
